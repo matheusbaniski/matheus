@@ -16,7 +16,7 @@
 
 .container {
     display: flex;
-    align-items: center;
+    align-items: center; color: var(--branco);
 }
 
 .container__imagem {
@@ -53,3 +53,5 @@
 .container_botao {
     display: none;
 }
+
+
