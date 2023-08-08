@@ -10,6 +10,11 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+        <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+/>
+
 </head>
 <body>
         <header class="cabeçalho">
@@ -23,7 +28,7 @@
             <div class="container">
         <a href="#"><img src="img/Favoritos.svg" alt="Meus favoritos" class="container_"></a>
         <a href="#"><img src="img/Compras.svg" alt="Carrinho de Compras" class="container__imagem"></a>
-        <a href="#"><img src="img/Usuarios.svg" alt="Meu Perfil" class="container__imagem"></a>
+        <a href="#"><img src="img/Usuário.svg" alt="Meu Perfil" class="container__imagem"></a>
             </div>
     </header>
     <section class="banner">
@@ -34,6 +39,17 @@ placeholder="qual sera sua proxima leitura?">
     </section>
  <section class="carrossel"> 
     <h2 class="carrossel_titulo">Novos lançamentos</h2>
+    <div class="swiper">
+        <div class="swiper-pagination"></div>
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="img/ApacheKafka.png alt= "Livro sobre apache Kafka e spring boot da AluraBooks></div>
+          <div class="swiper-slide"><img src="img/Javascript.png" alt= "Livro sobre Javascript da AluraBooks"></div>
+          <div class="swiper-slide"><img src="img/Portugol.png" alt= "Livro sobre Portugol da AluraBooks"></div>
+          ...
+        </div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
  </section>
 </body>
 </html>
